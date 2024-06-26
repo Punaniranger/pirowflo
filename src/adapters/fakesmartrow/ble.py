@@ -1,4 +1,3 @@
-
 import dbus
 import subprocess
 import logging
