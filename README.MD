@@ -7,7 +7,7 @@ On a fresh installed Raspbian, git must be installed first
 
 Clone the repo from Github: 
 
-    git clone https://github.com/TbsJah/pirowflow
+    git clone https://github.com/TbsJah/pirowflow.git
     
 go into the folder: 
 
@@ -25,6 +25,10 @@ you hadn't have your Ant+ dongle. Just re-run the script and it will install the
 Once installation and reboot complete, go into the pirowflo/src folder
 
     cd /home/pi/pirowflo/src
+
+Pull the repo from Github: 
+
+    git pull https://github.com/TbsJah/pirowflow.git
 
 ### Getting Started
 
