@@ -7,7 +7,7 @@ On a fresh installed Raspbian, git must be installed first
 
 Clone the repo from Github: 
 
-    git clone https://github.com/TbsJah/pirowflow.git
+    git clone https://github.com/TbsJah/pirowflo.git
     
 go into the folder: 
 
@@ -28,7 +28,7 @@ Once installation and reboot complete, go into the pirowflo/src folder
 
 Pull the repo from Github: 
 
-    git pull https://github.com/TbsJah/pirowflow.git
+    git pull https://github.com/TbsJah/pirowflo.git
 
 ### Getting Started
 
