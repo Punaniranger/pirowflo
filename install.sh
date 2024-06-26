@@ -31,8 +31,11 @@ echo "----------------------------------------------"
 echo "installed needed packages for python          "
 echo "----------------------------------------------"
 
-sudo apt-get install -y python3 python3-gi python3-gi-cairo gir1.2-gtk-3.0 python3-pip libatlas-base-dev libglib2.0-dev libgirepository1.0-dev libcairo2-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjp2-7 libtiff6
-sudo apt install build-essential libdbus-glib-1-dev libgirepository1.0-dev
+sudo apt-get install -y python3 python3-gi python3-dev python3-gi-cairo gir1.2-gtk-3.0 python3-pip 
+sudo apt-get install -y libatlas-base-dev libglib2.0-dev libgirepository1.0-dev libcairo2-dev zlib1g-dev 
+sudo apt-get install -y libfreetype6-dev liblcms2-dev libopenjp2-7 libtiff6
+sudo apt-get install -y build-essential libdbus-glib-1-dev 
+sudo apt-get install -y git virtualenv
 
 echo " "
 
@@ -45,7 +48,16 @@ echo " "
 python -m venv piroflow
 source piroflow/bin/activate
 
-sudo pip3 install -r requirements.txt
+pip3 install pyserial
+pip3 install PyGObject
+pip3 install dbus-python
+pip3 install numpy
+pip3 install pyusb
+pip3 install gatt 
+pip3 install supervisor 
+pip3 install luma.oled 
+
+# sudo pip3 install -r requirements.txt
 
 echo " "
 echo "-------------------------------------------------------"
