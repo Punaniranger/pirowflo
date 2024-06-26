@@ -12,7 +12,7 @@ On a fresh installed Raspbian, git must be installed first
 
 Clone the repo from Github: 
 
-    git clone https://github.com/inonoob/pirowflo.git 
+    git clone https://github.com/TbsJah/pirowflo 
     
 go into the folder: 
 
