@@ -45,8 +45,8 @@ echo "----------------------------------------------"
 echo "install needed python3 modules for the project        "
 echo "----------------------------------------------"
 echo " "
-python -m venv piroflow
-source piroflow/bin/activate
+python -m venv piroflo
+source piroflo/bin/activate
 
 pip3 install pyserial
 pip3 install PyGObject
