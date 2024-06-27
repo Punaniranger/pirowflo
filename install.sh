@@ -45,7 +45,7 @@ echo "----------------------------------------------"
 echo "install needed python3 modules for the project        "
 echo "----------------------------------------------"
 echo " "
-python3 -m venv piroflo
+python3 -m venv pirowflo
 source pirowflo/bin/activate
 
 pip3 install pyserial
