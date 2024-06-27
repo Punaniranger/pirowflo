@@ -55,7 +55,8 @@ pip3 install dbus-python
 pip3 install pyusb
 pip3 install gatt 
 pip3 install supervisor 
-pip3 install luma.oled 
+pip3 install luma.oled
+pip3 install spidev
 
 # sudo pip3 install -r requirements.txt
 
