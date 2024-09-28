@@ -78,6 +78,8 @@ start PiRowFlo from console
 
 Info!!
 
+Alte version, nicht nötig folgendes auszuführen:
+
 Nach der Installation dies ausführen im root:
 
     sudo apt-get install -y python3 python3-gi python3-dev python3-gi-cairo gir1.2-gtk-3.0 python3-pip
