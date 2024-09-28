@@ -46,13 +46,13 @@ to make start pirowflo on startup, follow these steps:
 
 in root:
 
-crontab -e
+    crontab -e
 
 1 - for nano
 
 add following at the bottom of the textfile:
 
-@reboot /home/USERNAME/pirowflo/start_row.sh
+    @reboot /home/USERNAME/pirowflo/start_row.sh
 
 save file with CTRL+X, accept with Y and close it with ENTER
 
