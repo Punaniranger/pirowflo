@@ -22,6 +22,18 @@ you hadn't have your Ant+ dongle. Just re-run the script and it will install the
 
     sudo ./install.sh 
 
+make driver.sh executable
+
+    sudo chmod +x driver.sh
+
+make rebootscript executable
+
+    sudo chmod +x start_row.sh
+
+execute driver.sh
+
+    sudo ./driver.sh
+
 Once installation and reboot complete, go into the pirowflo/src folder
 
     cd /home/pi/pirowflo/src
@@ -30,11 +42,19 @@ Pull the repo from Github:  -Fragliche Aktion-
 
     git pull https://github.com/Punaniranger/pirowflo.git
 
+to make start pirowflo on startup, follow these steps:
 
+in root:
 
+crontab -e
 
+1 - for nano
 
+add following at the bottom of the textfile:
 
+@reboot /home/USERNAME/pirowflo/start_row.sh
+
+save file with CTRL+X, accept with Y and close it with ENTER
 
 
 ### Getting Started
