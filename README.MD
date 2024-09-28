@@ -26,9 +26,16 @@ Once installation and reboot complete, go into the pirowflo/src folder
 
     cd /home/pi/pirowflo/src
 
-Pull the repo from Github: 
+Pull the repo from Github:  -Fragliche Aktion-
 
-    git pull https://github.com/TbsJah/pirowflo.git
+    git pull https://github.com/Punaniranger/pirowflo.git
+
+
+
+
+
+
+
 
 ### Getting Started
 
